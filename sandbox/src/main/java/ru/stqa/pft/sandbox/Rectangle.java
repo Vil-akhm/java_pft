@@ -15,6 +15,10 @@ public class Rectangle {
 //  public double area () {
 //   return this.a * this.b;
 //  }
+
+  public double distance(Rectangle p){
+    return Math.sqrt((this.x-p.x)*(this.x-p.x)+(this.y-p.y)*(this.y-p.y));
+  }
 }
 
 
