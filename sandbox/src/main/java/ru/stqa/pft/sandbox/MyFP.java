@@ -2,7 +2,7 @@ package ru.stqa.pft.sandbox;
 
 import java.util.concurrent.RecursiveAction;
 
-public class MyFdP {
+public class MyFP {
 
     public static void main(String[] args) {
         //     hello("user");
