@@ -4,17 +4,17 @@ package ru.stqa.pft.sandbox;
  * Created by Admin on 20.03.2016.
  */
 public class Rectangle {
-   public double a;
-   public  double b;
+   public double x;
+   public  double y;
 
-  public Rectangle(double a, double b) {
-    this.a= a;
-    this.b = b;
+  public Rectangle(double x, double y) {
+    this.x= x;
+    this.y = y;
   }
-
-  public double area () {
-    return this.a * this.b;
-  }
+//
+//  public double area () {
+//   return this.a * this.b;
+//  }
 }
 
 
