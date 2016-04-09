@@ -106,4 +106,21 @@ public class ApplicationManager {
   public void gotoContactsPage() {
     wd.findElement(By.linkText("add new")).click();
   }
+
+
+  public void closeWindow() {
+    wd.switchTo().alert().accept();
+  }
+
+  public void deleteContact() {
+    wd.findElement(By.cssSelector("input[value='Delete']")).click();
+  }
+
+  public void selectContact() {
+    wd.findElement(By.name("selected[]")).click();
+  }
+
+  public void openContacts() {
+    wd.findElement(By.linkText("home")).click();
+  }
 }
